@@ -8,7 +8,7 @@ The project involves creating a simple compiler that can parse a subset of HTML 
 #### Grammar
 The grammar defines the structure of the HTML documents that can be parsed by this compiler. Below is the grammar used in this project:
 
-HTML_DOC → DOCTYPE HTML_BODY
+HTML_DOC → DOCTYPE HTML_BODY  <\br>
 DOCTYPE → <!DOCTYPE html> | E
 HTML_BODY → <html> HEAD BODY </html>
 HEAD → <head> HEAD_CONTENT </head> | E
